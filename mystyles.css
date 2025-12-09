@@ -297,12 +297,20 @@ button:hover{
         font-weight: 700;
         font-size: 1.1em;
     }
-    hr{
-        border-bottom: 1px solid gainsboro;
-        width:95%;
+    .containeras{
+        margin-top: 15px;
+        padding: 0.5em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top:2px solid gainsboro;
+        height: 50px;
     }
-    .login-side{
+    .containeras .login-side{
         margin-left: 0px;
+        margin-top: 15px;
+        padding:0.5em;
     }
     nav{
         position: relative;
